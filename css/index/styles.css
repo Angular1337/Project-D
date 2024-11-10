@@ -20,7 +20,7 @@ html {
 body {
 	background-image: url("../../images/index/header_img.jpeg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-color: black;
 	margin: 0;
 }
