@@ -1,0 +1,261 @@
+/* Шрифты */
+@font-face {
+  font-family: "Impact Regular";
+  src: url(../fonts/Impact\ Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Brush Script Std";
+  src: url(../fonts/brushscriptstd.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url(../fonts/Oswald.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Основной стиль */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: "Oswald";
+  font-size: 20px;
+}
+
+header {
+  position: sticky;
+  z-index: 1;
+}
+
+.container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Шапка */
+.nav-list {
+  position: fixed;
+  display: flex;
+  gap: 200px;
+  font-size: 25px;
+  font-family: "Impact";
+}
+
+.nav-link {
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:after {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+.nav-link:hover:after,
+.nav-link:focus:after {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  padding: 0 25px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  font-family: "Oswald";
+  background: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 900;
+}
+
+/* Приветстсвенная секция */
+.welcome {
+  padding: 300px 0;
+  margin-top: -210px;
+  background-image: url("../images/header_img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-text {
+  width: 550px;
+}
+
+.what {
+  font-size: 50px;
+  margin: 0;
+}
+
+video {
+  width: 750px;
+  position: relative;
+  float: right;
+  bottom: 300px;
+}
+
+/* История команды */
+.history {
+  padding: 50px 0 100px 0;
+}
+
+.history-text {
+  width: 800px;
+}
+
+.history-img {
+  position: absolute;
+  left: 1500px;
+  bottom: -100px;
+}
+
+/* Состав команды */
+.members .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-member {
+  width: 350px;
+  height: 700px;
+  background: #292929;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.person {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.card-text {
+  text-align: start;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.basic {
+  display: inline-flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  gap: 40px;
+}
+
+.helpers {
+  display: inline-flex;
+  width: 1500px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  gap: 40px;
+}
+
+h3 {
+  font-size: 48px;
+  text-align: center;
+  font-family: "Impact";
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 35px;
+  text-align: center;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+.news {
+  text-align: center;
+}
+
+.news_paper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+
+.line {
+  margin-bottom: 25px;
+}
+
+.all_rights_reserved {
+  display: block;
+  float: left;
+  margin-left: 150px;
+}
+
+.faq {
+  display: inline-block;
+  position: relative;
+  left: 35%;
+}
+
+.year {
+  display: block;
+  float: right;
+  margin-right: 150px;
+}
+
+.footer_index {
+  margin-bottom: 25px;
+}
+
+.logo {
+  position: fixed;
+  top: -15px;
+}
