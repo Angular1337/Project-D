@@ -148,7 +148,7 @@ video {
 .history-img {
   position: absolute;
   left: 1500px;
-  bottom: -100px;
+  bottom: 0px;
 }
 
 /* Состав команды */
