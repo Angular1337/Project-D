@@ -1,17 +1,17 @@
 /* Шрифты */
 @font-face {
   font-family: "Impact Regular";
-  src: url(fonts/Impact\ Regular.ttf);
+  src: url(../fonts/Impact\ Regular.ttf);
 }
 
 @font-face {
   font-family: "Brush Script Std";
-  src: url(fonts/Brush\ Script\ Std.ttf);
+  src: url(../fonts/Brush\ Script\ Std.ttf);
 }
 
 @font-face {
   font-family: "Oswald";
-  src: url(fonts/Oswald\ ExtraLight.ttf);
+  src: url(../fonts/Oswald\ ExtraLight.ttf);
 }
 
 /* Основной стиль */
